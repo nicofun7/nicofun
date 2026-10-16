@@ -9,14 +9,14 @@
 </head>
 <body>
 
-    <!-- Smooth WebGL Background Canvas Layer -->
-    <canvas id="wobbleCanvas"></canvas>
+    <!-- Smooth WebGL Background Canvas Layer with Guaranteed Fullscreen Styling -->
+    <canvas id="wobbleCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -10; pointer-events: none;"></canvas>
 
     <!-- CRT Screen Scanline Overlay -->
     <div class="scanlines"></div>
 
     <!-- BACKGROUND AUDIO CORE ENGINE -->
-    <audio id="bgMusic" src="images/title_wave.mp3" loop></audio>
+    <audio id="bgMusic" src="sling_images/TAKE_CARE.mp3" loop></audio>
 
     <!-- TOP CONTROL PANEL BAR -->
     <div class="top-utility-bar">
@@ -27,7 +27,7 @@
                 <div class="win-buttons"><span>🗙</span></div>
             </div>
             <div class="window-content mini-player-content">
-                <div class="now-playing-text">Now Playing: TITLE WAVE - CRABLOOSHI</div>
+                <div class="now-playing-text">Now Playing: TAKE CARE - KEYAFTERKEY</div>
                 <button id="musicToggleBtn" class="mini-audio-btn">
                     <span>▶ PLAY</span>
                 </button>
@@ -43,16 +43,16 @@
     <!-- THE OUTSIDE WRAPPER (Handles the chaotic side-decorations) -->
     <div class="desktop-wrapper">
 
-        <!-- LEFT SIDE FLOATING PICTURES -->
+        <!-- LEFT SIDE FLOATING PICTURES (1 to 3) -->
         <div class="side-decor left-decor">
             <div class="decor-card height-tall">
-                <img src="images/araya.jpg" alt="Araya">
+                <img src="sling_images/side_img_1.gif" alt="Side Decor 1">
             </div>
             <div class="decor-card height-short">
-                <img src="images/regulardude.jpg" alt="Regular Dude">
+                <img src="sling_images/side_img_2.gif" alt="Side Decor 2">
             </div>
             <div class="decor-card height-medium">
-                <img src="images/canonically 8cm tall btw.jpg" alt="Sackboy">
+                <img src="sling_images/side_img_3.jpg" alt="Side Decor 3">
             </div>
         </div>
 
@@ -67,7 +67,7 @@
                 </div>
                 <div class="profile-flex">
                     <div class="profile-avatar-box">
-                        <img src="images/mascot.jpg" alt="Cat Mascot" class="pixel-avatar">
+                        <img src="sling_images/first_image.jpg" alt="First Image" class="pixel-avatar">
                     </div>
                     <div class="profile-bio">
                         <h2>nico.</h2>
@@ -92,13 +92,13 @@
                         </div>
                         <div class="window-content">
                             <div class="social-links-list">
-                                <a href="https://steamcommunity.com/id/imnicohi/" target="_blank" class="social-btn steam-btn">
+                                <a href="https://steamcommunity.com/your-profile-here" target="_blank" class="social-btn steam-btn">
                                     Steam Profile
                                 </a>
-                                <a href="https://www.roblox.com/users/2509734726/profile" target="_blank" class="social-btn roblox-btn">
+                                <a href="https://www.roblox.com/users/your-id-here/profile" target="_blank" class="social-btn roblox-btn">
                                     Roblox Profile
                                 </a>
-                                <a href="https://www.youtube.com/channel/UCzIUWWqQlwx-uytlYmlnRZw" target="_blank" class="social-btn youtube-btn">
+                                <a href="https://www.youtube.com/@your-channel-here" target="_blank" class="social-btn youtube-btn">
                                     YouTube Channel
                                 </a>
                             </div>
@@ -112,7 +112,7 @@
                             <div class="win-buttons"><span>_</span><span>🗙</span></div>
                         </div>
                         <div class="window-content">
-                            <p>- currently 16</p>
+                            <p>- currently 15</p>
                             <p>- taken &lt;3</p>
                             <p>- i play videogames and sometimes draw whenever i feel like it</p>
                             <p>- i can somewhat voiceact</p>
@@ -129,9 +129,15 @@
                         </div>
                         <div class="window-content">
                             <p>i like object shows (itft my beloved)</p>
-                            <p>i play a lot of games and some of them are deltarune ultrakill and hollow knight</p>
+                            <p>i play a lot of games and some of them are Deltarune, Ultrakill, Hollow Knight and Limbus Company!!</p>
                             <p>i play too much roblox</p>
                             <p>azali listener</p>
+							<p>ㅤ</p>
+							<p>ㅤ</p>
+							<p>ㅤ</p>
+							<p>ㅤ</p>
+							<p>ㅤ</p>
+							<p>idk what to put here...</p>
                         </div>
                     </div>
                 </div>
@@ -151,7 +157,7 @@
                                 <div class="tool">▲</div><div class="tool">⬤</div>
                             </div>
                             <div class="canvas-area">
-                                <img src="images/paint_character.jpg" alt="Paint Canvas" class="canvas-img">
+                                <img src="sling_images/paint_img.jpg" alt="Paint Canvas" class="canvas-img">
                             </div>
                         </div>
                     </div>
@@ -167,14 +173,15 @@
                         </div>
                     </div>
 
-                    <!-- THE EXPANDING IMAGE WINDOW (RESTORED OLD IMAGE) -->
+                    <!-- THE EXPANDING IMAGE WINDOW -->
                     <div class="window flex-grow-win">
                         <div class="window-header">
-                            <span>erza.png</span>
+                            <span>slingshot.png</span>
+							<span>(Credits to heroicHomo)</span>
                             <div class="win-buttons"><span>_</span><span>🗙</span></div>
                         </div>
                         <div class="window-content photo-showcase-container structural-stretch">
-                            <img src="images/erza.jpg" alt="Showcase Photo" class="expanding-photo">
+                            <img src="sling_images/big_img.jpg" alt="Showcase Photo" class="expanding-photo">
                         </div>
                     </div>
                 </div>
@@ -191,12 +198,12 @@
                     <h4 class="section-heading">song reccomendations from my wife!! ↓ ↓ </h4>
                     <div class="music-flex">
                         <div class="track">
-                            <img src="images/halcyon.jpg" alt="Halcyon">
+                            <img src="sling_images/halcyon.jpg" alt="Halcyon">
                             <span class="track-title">Halcyon</span>
                             <span class="track-artist">xi</span>
                         </div>
                         <div class="track">
-                            <img src="images/opfer.jpg" alt="Opfer">
+                            <img src="sling_images/opfer.jpg" alt="Opfer">
                             <span class="track-title">Opfer</span>
                             <span class="track-artist">Unlucky Morpheus</span>
                         </div>
@@ -216,8 +223,8 @@
                         <span class="person-tag">Aubie &lt;3</span>
                         <span class="person-tag">Jay</span>
                         <span class="person-tag">Capz</span>
-                        <span class="person-tag">Minos</span>
-                        <span class="person-tag">hanzu</span>
+                        <span class="person-tag">Azure</span>
+                        <span class="person-tag">evil nico</span>
                         <span class="person-tag">scag</span>
                         <span class="person-tag">Gemv</span>
                     </div>
@@ -234,23 +241,23 @@
                     <h4 class="section-heading">peak games you should absolutely play ↓ ↓ </h4>
                     <div class="games-shelf">
                         <a href="https://www.roblox.com/games/16483433878/Block-Tales" target="_blank" class="game-item">
-                            <img src="images/game1.webp" alt="Game 1">
+                            <img src="sling_images/game1.webp" alt="Game 1">
                             <span>Block Tales</span>
                         </a>
                         <a href="https://www.roblox.com/games/129279692364812/Nullscape" target="_blank" class="game-item">
-                            <img src="images/game2.jpg" alt="Game 2">
+                            <img src="sling_images/game2.jpg" alt="Game 2">
                             <span>Nullscape</span>
                         </a>
                         <a href="https://www.roblox.com/games/7138009149/PHIGHTING" target="_blank" class="game-item">
-                            <img src="images/game3.png" alt="Game 3">
+                            <img src="sling_images/game3.png" alt="Game 3">
                             <span>Phighting</span>
                         </a>
                         <a href="https://www.roblox.com/games/71895508397153" target="_blank" class="game-item">
-                            <img src="images/game4.webp" alt="Game 4">
+                            <img src="sling_images/game4.webp" alt="Game 4">
                             <span>Die of Death</span>
                         </a>
                         <a href="https://www.roblox.com/games/102464178326906/DIVE-v0-21a" target="_blank" class="game-item">
-                            <img src="images/game5.webp" alt="Game 5">
+                            <img src="sling_images/game5.webp" alt="Game 5">
                             <span>Dive!!!</span>
                         </a>
                     </div>
@@ -260,28 +267,28 @@
             <!-- STABLE FOOTER -->
             <footer class="footer-container">
                 <div class="footer-mascot">
-                    <img src="images/ssstik.io_conswayo__1781370975037-ezgif.com-video-to-gif-converter.gif" alt="Bouncing Cats">
+                    <img src="sling_images/ssstik.io_conswayo__1781370975037-ezgif.com-video-to-gif-converter.gif" alt="Bouncing Cats">
                 </div>
             </footer>
 
         </div>
 
-        <!-- RIGHT SIDE FLOATING PICTURES -->
+        <!-- RIGHT SIDE FLOATING PICTURES (4 to 6) -->
         <div class="side-decor right-decor">
             <div class="decor-card height-medium">
-                <img src="images/cock(turkey ok) above ryoshu head.webp" alt="Ryoshu Head">
+                <img src="sling_images/side_img_4.jpg" alt="Side Decor 4">
             </div>
             <div class="decor-card height-tall">
-                <img src="images/iriwara.png" alt="Iriwara">
+                <img src="sling_images/side_img_5.jpg" alt="Side Decor 5">
             </div>
             <div class="decor-card height-short">
-                <img src="images/Котосова _ Meowl дома уютненько.webp" alt="Meowl Cozy Cat">
+                <img src="sling_images/side_img_6.jpg" alt="Side Decor 6">
             </div>
         </div>
 
     </div>
 
-    <!-- WebGL Background Engine Script -->
+    <!-- WebGL Background Engine Script (Cyan/Blue Theme) -->
     <script>
         const canvas = document.getElementById('wobbleCanvas');
         const gl = canvas.getContext('webgl');
@@ -309,8 +316,8 @@
                 float waveX = cos(uv.x * 3.0 + uTime * 0.3) * 0.02;
                 vec2 uvScroll = vec2(uv.x + wave + uTime * 0.015, uv.y + waveX + uTime * 0.015);
                 vec2 grid = floor(mod(uvScroll * vec2(15.0 * (uResolution.x / uResolution.y), 15.0), 2.0));
-                vec3 color1 = vec3(0.07, 0.01, 0.14); 
-                vec3 color2 = vec3(0.11, 0.03, 0.21); 
+                vec3 color1 = vec3(0.0, 0.05, 0.15); // Deep Blue
+                vec3 color2 = vec3(0.0, 0.2, 0.35);  // Cyan/Blue
                 vec3 finalColor = (grid.x == grid.y) ? color1 : color2;
                 gl_FragColor = vec4(finalColor, 1.0);
             }
@@ -368,12 +375,12 @@
             if (bgMusic.paused) {
                 bgMusic.play().catch(err => console.log("Blocked:", err));
                 musicToggleBtn.innerHTML = '<span>█ PAUSE</span>';
-                musicToggleBtn.style.borderColor = '#00ffcc';
-                musicToggleBtn.style.color = '#00ffcc';
+                musicToggleBtn.style.borderColor = '#00ffff';
+                musicToggleBtn.style.color = '#00ffff';
             } else {
                 bgMusic.pause();
                 musicToggleBtn.innerHTML = '<span>▶ PLAY</span>';
-                musicToggleBtn.style.borderColor = '#aa00ff';
+                musicToggleBtn.style.borderColor = '#0088ff';
                 musicToggleBtn.style.color = '#ffffff';
             }
         });
